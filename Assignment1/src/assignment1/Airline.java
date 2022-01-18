@@ -20,7 +20,7 @@ public class Airline {
 	}
 	
 	public String getName() {
-		return name;
+		return name; 
 	}
 	
 	@Override

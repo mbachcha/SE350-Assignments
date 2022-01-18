@@ -14,7 +14,7 @@ public class Airline {
 
 	private void setName(String name) throws IllegalParameterException {
 		if(name.length() >= 8) {
-			throw new IllegalParameterException("Entered parameter exceeds the length allowed");
+			throw new IllegalParameterException("Entered parameter exceeds the length allowed"); 
 		}
 		this.name = name;
 	}
